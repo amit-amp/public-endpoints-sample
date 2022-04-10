@@ -18,6 +18,12 @@
     "attributes": "*"
   },
   {
+    "role": "user",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
     "role": "manager",
     "resource": "User",
     "action": "create:any",
@@ -25,12 +31,6 @@
   },
   {
     "role": "admin",
-    "resource": "User",
-    "action": "create:any",
-    "attributes": "*"
-  },
-  {
-    "role": "user",
     "resource": "User",
     "action": "create:any",
     "attributes": "*"
